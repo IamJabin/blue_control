@@ -159,7 +159,7 @@ int main(void)
                 LedBlink(LED2_PORT, LED2_PIN);		 
             }			
             //usart_tx_dma_send("test", 5);	
-            //test github synchronization
+            //test github synchronization ok
         }
     }
 }
