@@ -1,0 +1,1245 @@
+{
+  "name": "rdtss",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "STARTUP",
+        "files": [
+          {
+            "path": "../firmware/CMSIS/device/startup/startup_n32wb03x.s"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "CMSIS",
+        "files": [
+          {
+            "path": "../firmware/CMSIS/device/system_n32wb03x.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "FWLB",
+        "files": [
+          {
+            "path": "../firmware/n32wb03x_std_periph_driver/src/misc.c"
+          },
+          {
+            "path": "../firmware/n32wb03x_std_periph_driver/src/n32wb03x_adc.c"
+          },
+          {
+            "path": "../firmware/n32wb03x_std_periph_driver/src/n32wb03x_crc.c"
+          },
+          {
+            "path": "../firmware/n32wb03x_std_periph_driver/src/n32wb03x_dma.c"
+          },
+          {
+            "path": "../firmware/n32wb03x_std_periph_driver/src/n32wb03x_exti.c"
+          },
+          {
+            "path": "../firmware/n32wb03x_std_periph_driver/src/n32wb03x_gpio.c"
+          },
+          {
+            "path": "../firmware/n32wb03x_std_periph_driver/src/n32wb03x_lpuart.c"
+          },
+          {
+            "path": "../firmware/n32wb03x_std_periph_driver/src/n32wb03x_qflash.c"
+          },
+          {
+            "path": "../firmware/n32wb03x_std_periph_driver/src/n32wb03x_rcc.c"
+          },
+          {
+            "path": "../firmware/n32wb03x_std_periph_driver/src/n32wb03x_rtc.c"
+          },
+          {
+            "path": "../firmware/n32wb03x_std_periph_driver/src/n32wb03x_spi.c"
+          },
+          {
+            "path": "../firmware/n32wb03x_std_periph_driver/src/n32wb03x_tim.c"
+          },
+          {
+            "path": "../firmware/n32wb03x_std_periph_driver/src/n32wb03x_usart.c"
+          },
+          {
+            "path": "../firmware/n32wb03x_std_periph_driver/src/n32wb03x_wwdg.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "BLE_STACK",
+        "files": [
+          {
+            "path": "../middlewares/Nationstech/ble_library/ns_ble_stack/stack_common/rwip.c"
+          },
+          {
+            "path": "../middlewares/Nationstech/ble_library/ns_ble_stack/stack_common/rwip_driver.c"
+          },
+          {
+            "path": "../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/hl/src/att/lib_att.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "BLE_PROFILE",
+        "files": [
+          {
+            "path": "../middlewares/Nationstech/ble_library/ns_ble_profile/prf.c"
+          },
+          {
+            "path": "../middlewares/Nationstech/ble_library/ns_ble_profile/prf_utils.c"
+          },
+          {
+            "path": "../middlewares/Nationstech/ble_library/ns_ble_profile/dis/diss/src/diss.c"
+          },
+          {
+            "path": "../middlewares/Nationstech/ble_library/ns_ble_profile/dis/diss/src/diss_task.c"
+          },
+          {
+            "path": "../middlewares/Nationstech/ble_library/ns_ble_profile/bas/basc/src/basc.c"
+          },
+          {
+            "path": "../middlewares/Nationstech/ble_library/ns_ble_profile/bas/basc/src/basc_task.c"
+          },
+          {
+            "path": "../middlewares/Nationstech/ble_library/ns_ble_profile/rdts/rdtss/src/rdtss.c"
+          },
+          {
+            "path": "../middlewares/Nationstech/ble_library/ns_ble_profile/rdts/rdtss/src/rdtss_task.c"
+          },
+          {
+            "path": "../middlewares/Nationstech/ble_library/ns_ble_profile/rdts/rdts_common.c"
+          },
+          {
+            "path": "../middlewares/Nationstech/ble_library/ns_ble_profile/ns_ius/ns_iuss/src/ns_iuss.c"
+          },
+          {
+            "path": "../middlewares/Nationstech/ble_library/ns_ble_profile/ns_ius/ns_iuss/src/ns_iuss_task.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "NS_DFU",
+        "files": [
+          {
+            "path": "../middlewares/Nationstech/ble_library/ns_library/dfu/ns_dfu_ble.c"
+          },
+          {
+            "path": "../middlewares/Nationstech/ble_library/ns_library/dfu/ns_dfu_boot.c"
+          },
+          {
+            "path": "../middlewares/Nationstech/ble_library/ns_library/dfu/dfu_crc.c"
+          },
+          {
+            "path": "../middlewares/Nationstech/ble_library/ns_library/dfu/dfu_delay.c"
+          },
+          {
+            "path": "../middlewares/Nationstech/ble_library/ns_library/dfu/dfu_led.c"
+          },
+          {
+            "path": "../middlewares/Nationstech/ble_library/ns_library/dfu/dfu_usart.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Crypto",
+        "files": [
+          {
+            "path": "../middlewares/Nationstech/ble_library/ns_library/ecc/sha256.c"
+          },
+          {
+            "path": "../middlewares/Nationstech/ble_library/ns_library/ecc/uECC.c"
+          },
+          {
+            "path": "../middlewares/Nationstech/ble_library/ns_library/ecc/ns_ecc.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "NS_LIB",
+        "files": [
+          {
+            "path": "../middlewares/Nationstech/ble_library/ns_library/sleep/ns_sleep.c"
+          },
+          {
+            "path": "../middlewares/Nationstech/ble_library/ns_library/ble/ns_ble.c"
+          },
+          {
+            "path": "../middlewares/Nationstech/ble_library/ns_library/ble/ns_ble_task.c"
+          },
+          {
+            "path": "../middlewares/Nationstech/ble_library/ns_library/sec/ns_sec.c"
+          },
+          {
+            "path": "../middlewares/Nationstech/ble_library/ns_library/error/ns_error.c"
+          },
+          {
+            "path": "../middlewares/Nationstech/ble_library/ns_library/timer/ns_timer.c"
+          },
+          {
+            "path": "../middlewares/Nationstech/ble_library/ns_library/log/ns_log_lpuart.c"
+          },
+          {
+            "path": "../middlewares/Nationstech/ble_library/ns_library/log/ns_log_usart.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "BLE_APP",
+        "files": [
+          {
+            "path": "../App/src/app_profile/app_batt.c"
+          },
+          {
+            "path": "../App/src/app_profile/app_dis.c"
+          },
+          {
+            "path": "../App/src/app_profile/app_rdtss.c"
+          },
+          {
+            "path": "../App/src/app_profile/app_ns_ius.c"
+          },
+          {
+            "path": "../App/src/app_ble.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "BSP_BLE",
+        "files": [
+          {
+            "path": "../BSP/BSP_BLE/rs_queue_list.c"
+          },
+          {
+            "path": "../BSP/BSP_BLE/rs_queue_list_config.c"
+          },
+          {
+            "path": "../BSP/BSP_BLE/crc.c"
+          },
+          {
+            "path": "../BSP/BSP_BLE/ble_msg.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "BSP",
+        "files": [
+          {
+            "path": "../BSP/bsp_beep.c"
+          },
+          {
+            "path": "../BSP/bsp_digitron.c"
+          },
+          {
+            "path": "../BSP/bsp_key.c"
+          },
+          {
+            "path": "../BSP/bsp_led.c"
+          },
+          {
+            "path": "../BSP/bsp_relay.c"
+          },
+          {
+            "path": "../BSP/bsp_alarm.c"
+          },
+          {
+            "path": "../BSP/bsp_calendar.c"
+          },
+          {
+            "path": "../BSP/log.c"
+          },
+          {
+            "path": "../BSP/bsp_timer.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "USER",
+        "files": [
+          {
+            "path": "../App/src/app_usart.c"
+          },
+          {
+            "path": "../App/src/main.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "CONFIG",
+        "files": [
+          {
+            "path": "../App/inc/app_user_config.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "DOC",
+        "files": [],
+        "folders": []
+      },
+      {
+        "name": "DRV",
+        "files": [
+          {
+            "path": "../DRV/drv_soft_iic.c"
+          }
+        ],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "797ee3c68aea803ee0042c3dc1788cef"
+  },
+  "targets": {
+    "N32WB03x": {
+      "excludeList": [
+        "<virtual_root>/NS_DFU",
+        "<virtual_root>/Crypto"
+      ],
+      "toolchain": "AC5",
+      "compileConfig": {
+        "cpuType": "Cortex-M0",
+        "floatingPointHardware": "none",
+        "scatterFilePath": "",
+        "useCustomScatterFile": false,
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "RAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x20004000",
+                "size": "0x8000"
+              },
+              "isChecked": true,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "ROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x1000000",
+                "size": "0x40000"
+              },
+              "isChecked": true,
+              "isStartup": true
+            },
+            {
+              "tag": "IROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            }
+          ]
+        },
+        "options": "null"
+      },
+      "uploader": "JLink",
+      "uploadConfig": {
+        "bin": "",
+        "baseAddr": "",
+        "cpuInfo": {
+          "vendor": "null",
+          "cpuName": "null"
+        },
+        "proType": 1,
+        "speed": 8000,
+        "otherCmds": ""
+      },
+      "uploadConfigMap": {},
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "../App",
+          "../BSP",
+          "../firmware",
+          "../middlewares",
+          "../App/inc",
+          "../App/src",
+          "../App/inc/app_profile",
+          "../App/src/app_profile",
+          "../firmware/CMSIS",
+          "../firmware/n32wb03x_std_periph_driver",
+          "../firmware/CMSIS/core",
+          "../firmware/CMSIS/device",
+          "../firmware/CMSIS/device/startup",
+          "../firmware/n32wb03x_std_periph_driver/inc",
+          "../firmware/n32wb03x_std_periph_driver/src",
+          ".",
+          "Listings",
+          "Objects",
+          "../middlewares/Nationstech",
+          "../middlewares/Third_Party",
+          "../middlewares/Nationstech/ble_library",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack",
+          "../middlewares/Nationstech/ble_library/ns_library",
+          "../middlewares/Third_Party/FreeRTOS",
+          "../middlewares/Third_Party/FreeRTOS/License",
+          "../middlewares/Third_Party/FreeRTOS/Source",
+          "../middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS",
+          "../middlewares/Third_Party/FreeRTOS/Source/include",
+          "../middlewares/Third_Party/FreeRTOS/Source/portable",
+          "../middlewares/Third_Party/FreeRTOS/Source/portable/Common",
+          "../middlewares/Third_Party/FreeRTOS/Source/portable/IAR",
+          "../middlewares/Third_Party/FreeRTOS/Source/portable/Keil",
+          "../middlewares/Third_Party/FreeRTOS/Source/portable/MemMang",
+          "../middlewares/Third_Party/FreeRTOS/Source/portable/RVDS",
+          "../middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0",
+          "../middlewares/Third_Party/FreeRTOS/Source/portable/IAR/ARM_CM0",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/anc",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/anc/ancc",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/anc/ancc/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/anc/ancc/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/anp",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/anp/anpc",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/anp/anps",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/anp/anpc/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/anp/anpc/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/anp/anps/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/anp/anps/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/bas/basc",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/bas/bass",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/bas/basc/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/bas/basc/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/bas/bass/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/bas/bass/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/bcs/bcsc",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/bcs/bcss",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/bcs/bcsc/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/bcs/bcsc/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/blp/blpc",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/blp/blps",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/blp/blpc/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/blp/blpc/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/blp/blps/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/blp/blps/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/cgmp/cgmc",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/cgmp/cgms",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/cgmp/cgmc/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/cgmp/cgmc/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/cgmp/cgms/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/cgmp/cgms/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/cpp/cppc",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/cpp/cpps",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/cpp/cppc/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/cpp/cppc/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/cpp/cpps/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/cpp/cpps/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/cscp/cscpc",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/cscp/cscps",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/cscp/cscpc/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/cscp/cscpc/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/cscp/cscps/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/cscp/cscps/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/dis/disc",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/dis/diss",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/dis/disc/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/dis/disc/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/dis/diss/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/dis/diss/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/find/findl",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/find/findt",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/find/findl/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/find/findl/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/find/findt/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/find/findt/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/glp/glpc",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/glp/glps",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/glp/glpc/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/glp/glpc/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/glp/glps/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/glp/glps/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/hogp/hogpbh",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/hogp/hogpd",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/arch",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/ip",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/modules",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/rfinit",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/stack_common",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/symdef",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ahi",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/ip/em",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/ip/hci",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/ip/sch",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ahi/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/hl",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/ll",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/hl/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/hl/inc",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/hl/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/ll/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/ll/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/ll/src/llc",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/ll/src/lld",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/ll/src/llm",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/ip/em/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/ip/hci/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/ip/sch/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/hogp/hogprh",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/hogp/hogpbh/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/hogp/hogpbh/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/hogp/hogpd/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/hogp/hogpd/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/hogp/hogprh/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/hogp/hogprh/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/hrp/hrpc",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/hrp/hrps",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/hrp/hrpc/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/hrp/hrpc/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/hrp/hrps/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/hrp/hrps/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/htp/htpc",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/htp/htpt",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/htp/htpc/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/htp/htpc/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/htp/htpt/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/htp/htpt/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/lan/lanc",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/lan/lans",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/lan/lanc/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/lan/lanc/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/modules/aes",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/modules/common",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/modules/dbg",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/modules/ecc_p256",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/modules/h4tl",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/modules/ke",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/modules/rwip",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/modules/aes/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/modules/common/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/modules/dbg/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/modules/ecc_p256/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/modules/h4tl/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/modules/ke/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/modules/rwip/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/rfinit/api",
+          "../middlewares/Nationstech/ble_library/ns_library/adv",
+          "../middlewares/Nationstech/ble_library/ns_library/ble",
+          "../middlewares/Nationstech/ble_library/ns_library/delay",
+          "../middlewares/Nationstech/ble_library/ns_library/dfu",
+          "../middlewares/Nationstech/ble_library/ns_library/ecc",
+          "../middlewares/Nationstech/ble_library/ns_library/error",
+          "../middlewares/Nationstech/ble_library/ns_library/log",
+          "../middlewares/Nationstech/ble_library/ns_library/scheduler",
+          "../middlewares/Nationstech/ble_library/ns_library/sec",
+          "../middlewares/Nationstech/ble_library/ns_library/sleep",
+          "../middlewares/Nationstech/ble_library/ns_library/timer",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/hl/src/att",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/hl/src/gap",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/hl/src/gatt",
+          "../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/hl/src/l2c",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/ns_ius",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/ns_ius/ns_iuss",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/ns_ius/ns_iuss/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/ns_ius/ns_iuss/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/pasp",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/pasp/paspc",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/pasp/pasps",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/pasp/paspc/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/pasp/paspc/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/pasp/pasps/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/pasp/pasps/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/plxp",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/plxp/plxc",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/plxp/plxc/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/plxp/plxc/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/plxp/plxs",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/plxp/plxs/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/plxp/plxs/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/prox",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/prox/proxm",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/prox/proxr",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/prox/proxm/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/prox/proxm/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/prox/proxr/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/prox/proxr/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/rdts",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/rdts/rdtsc",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/rdts/rdtss",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/rdts/rdtsc/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/rdts/rdtsc/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/rdts/rdtss/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/rdts/rdtss/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/rscp",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/rscp/rscpc",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/rscp/rscps",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/rscp/rscpc/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/rscp/rscpc/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/rscp/rscps/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/rscp/rscps/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/scpp",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/scpp/scppc",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/scpp/scpps",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/scpp/scppc/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/scpp/scppc/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/scpp/scpps/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/scpp/scpps/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/tip",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/tip/tipc",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/tip/tips",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/tip/tipc/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/tip/tipc/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/tip/tips/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/tip/tips/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/uds",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/uds/udsc",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/uds/udss",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/uds/udsc/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/uds/udsc/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/uds/udss/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/uds/udss/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/wscp",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/wscp/wscc",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/wscp/wscs",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/wscp/wscc/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/wscp/wscc/src",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/wscp/wscs/api",
+          "../middlewares/Nationstech/ble_library/ns_ble_profile/wscp/wscs/src",
+          "../BSP/BSP_BLE",
+          "../DRV",
+          "RTE/_N32WB03x"
+        ],
+        "libList": [],
+        "defineList": [
+          "N32WB03X",
+          "USE_STDPERIPH_DRIVER"
+        ]
+      },
+      "builderOptions": {
+        "AC5": {
+          "version": 4,
+          "beforeBuildTasks": [],
+          "afterBuildTasks": [
+            {
+              "name": "[Copy linker output for Keil User Commands]",
+              "command": "mkdir ${KEIL_OUTPUT_DIR} & copy \"${OutDir}\\${ProjectName}.axf\" \"${KEIL_OUTPUT_DIR}\\${KEIL_OUTPUT_NAME}.axf\"",
+              "disable": false,
+              "abortAfterFailed": true
+            },
+            {
+              "name": "fromelf --bin --output=.\\bin\\rdts.bin .\\Objects\\rdts.axf",
+              "command": "fromelf --bin --output=.\\bin\\rdts.bin .\\Objects\\rdts.axf",
+              "disable": true,
+              "abortAfterFailed": true
+            },
+            {
+              "name": "fromelf.exe --bin -o \"$L@L.bin\" \"#L\"",
+              "command": "fromelf.exe --bin -o \"${KEIL_OUTPUT_DIR}\\${KEIL_OUTPUT_NAME}.bin\" \"${KEIL_OUTPUT_DIR}\\${KEIL_OUTPUT_NAME}.axf\"",
+              "disable": false,
+              "abortAfterFailed": true
+            }
+          ],
+          "global": {
+            "use-microLIB": true,
+            "output-debug-info": "enable"
+          },
+          "c/cpp-compiler": {
+            "optimization": "level-0",
+            "one-elf-section-per-function": true,
+            "c99-mode": true,
+            "C_FLAGS": "--diag_suppress=1 --diag_suppress=1295",
+            "CXX_FLAGS": "--diag_suppress=1 --diag_suppress=1295",
+            "optimize-for-time": true,
+            "warnings": "all-warnings"
+          },
+          "asm-compiler": {},
+          "linker": {
+            "output-format": "elf",
+            "xo-base": "",
+            "ro-base": "0x00000000",
+            "rw-base": "0x20000000",
+            "misc-controls": "..\\middlewares\\Nationstech\\ble_library\\ns_ble_stack\\symdef\\symbol_g15.obj"
+          }
+        }
+      }
+    },
+    "OTA_IMG_1": {
+      "compileConfig": {
+        "cpuType": "Cortex-M0",
+        "floatingPointHardware": "none",
+        "scatterFilePath": "",
+        "useCustomScatterFile": false,
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "RAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x20004000",
+                "size": "0x8000"
+              },
+              "isChecked": true,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "ROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x1004000",
+                "size": "0x1c000"
+              },
+              "isChecked": true,
+              "isStartup": true
+            },
+            {
+              "tag": "IROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            }
+          ]
+        },
+        "options": "null"
+      },
+      "uploader": "JLink",
+      "uploadConfig": {
+        "bin": "",
+        "baseAddr": "",
+        "cpuInfo": {
+          "vendor": "null",
+          "cpuName": "null"
+        },
+        "proType": 1,
+        "speed": 8000,
+        "otherCmds": ""
+      },
+      "uploadConfigMap": {},
+      "builderOptions": {
+        "AC5": {
+          "version": 4,
+          "beforeBuildTasks": [],
+          "afterBuildTasks": [
+            {
+              "name": "[Copy linker output for Keil User Commands]",
+              "command": "mkdir ${KEIL_OUTPUT_DIR} & copy \"${OutDir}\\${ProjectName}.axf\" \"${KEIL_OUTPUT_DIR}\\${KEIL_OUTPUT_NAME}.axf\"",
+              "disable": false,
+              "abortAfterFailed": true
+            },
+            {
+              "name": "fromelf --bin --output=.\\bin\\rdtss_ota.bin .\\Objects\\rdtss_ota.axf",
+              "command": "fromelf --bin --output=.\\bin\\rdtss_ota.bin .\\Objects\\rdtss_ota.axf",
+              "disable": false,
+              "abortAfterFailed": true
+            },
+            {
+              "name": "cmd.exe /C copy .\\bin\\rdtss_ota.bin ..\\..\\..\\..\\..\\utilities\\dfu\\Image\\APP1.bin",
+              "command": "cmd.exe /C copy .\\bin\\rdtss_ota.bin ..\\..\\..\\..\\..\\utilities\\dfu\\Image\\APP1.bin",
+              "disable": false,
+              "abortAfterFailed": true
+            }
+          ],
+          "global": {
+            "use-microLIB": true,
+            "output-debug-info": "enable"
+          },
+          "c/cpp-compiler": {
+            "optimization": "level-0",
+            "one-elf-section-per-function": true,
+            "c99-mode": true,
+            "C_FLAGS": "--diag_suppress=1 --diag_suppress=1295",
+            "CXX_FLAGS": "--diag_suppress=1 --diag_suppress=1295",
+            "optimize-for-time": true,
+            "warnings": "all-warnings"
+          },
+          "asm-compiler": {},
+          "linker": {
+            "output-format": "elf",
+            "xo-base": "",
+            "ro-base": "0x00000000",
+            "rw-base": "0x20000000",
+            "$disableOutputTask": true,
+            "misc-controls": "..\\..\\..\\..\\..\\middlewares\\Nationstech\\ble_library\\ns_ble_stack\\symdef\\symbol_g15.obj"
+          }
+        }
+      },
+      "toolchain": "AC5",
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "../inc",
+          "../../../../../firmware/CMSIS/core",
+          "../../../../../firmware/CMSIS/device",
+          "../../../../../firmware/n32wb03x_std_periph_driver/inc",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_profile/dis/diss/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_profile/bas/bass/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_profile/hogp",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_profile/hogp/hogpd/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_profile/hogp/hogpd/src",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_profile/rdts",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_profile/rdts/rdtss/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_profile/ns_ius/ns_iuss/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ahi/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/hl/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/hl/inc",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/hl/src/gap",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/hl/src/gatt",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/hl/src/l2c",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/ll/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/ll/src",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/ll/src/llc",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/ll/src/lld",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/ll/src/llm",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/ip/em/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/ip/hci/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/ip/sch/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/modules/aes/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/modules/common/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/modules/dbg/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/modules/ecc_p256/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/modules/h4tl/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/modules/ke/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/modules/rwip/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/rfinit/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/arch",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/modules/common/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/modules/common/src",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/stack_common",
+          "../inc/rw",
+          "../inc/app_profile",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/arch",
+          "../../../../../middlewares/Nationstech/ble_library/ns_library/adv",
+          "../../../../../middlewares/Nationstech/ble_library/ns_library/timer",
+          "../../../../../middlewares/Nationstech/ble_library/ns_library/log",
+          "../../../../../middlewares/Nationstech/ble_library/ns_library/delay",
+          "../../../../../middlewares/Nationstech/ble_library/ns_library/sleep",
+          "../../../../../middlewares/Nationstech/ble_library/ns_library/error",
+          "../../../../../middlewares/Nationstech/ble_library/ns_library/ecc",
+          "../../../../../middlewares/Nationstech/ble_library/ns_library/dfu",
+          "../../../../../middlewares/Nationstech/ble_library/ns_library/sec",
+          "../../../dfu/common",
+          "../../../../../middlewares/Nationstech/ble_library/ns_library/ble",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_profile/bas/bass/src",
+          "RTE/_OTA_IMG_1"
+        ],
+        "defineList": [
+          "N32WB03X",
+          "USE_STDPERIPH_DRIVER",
+          "APPLICATION",
+          "BLE_OTA_ENABLE"
+        ],
+        "libList": []
+      },
+      "excludeList": []
+    },
+    "OTA_IMG_2": {
+      "compileConfig": {
+        "cpuType": "Cortex-M0",
+        "floatingPointHardware": "none",
+        "scatterFilePath": "",
+        "useCustomScatterFile": false,
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "RAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x20004000",
+                "size": "0x8000"
+              },
+              "isChecked": true,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "ROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x1020000",
+                "size": "0x1c000"
+              },
+              "isChecked": true,
+              "isStartup": true
+            },
+            {
+              "tag": "IROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            }
+          ]
+        },
+        "options": "null"
+      },
+      "uploader": "JLink",
+      "uploadConfig": {
+        "bin": "",
+        "baseAddr": "",
+        "cpuInfo": {
+          "vendor": "null",
+          "cpuName": "null"
+        },
+        "proType": 1,
+        "speed": 8000,
+        "otherCmds": ""
+      },
+      "uploadConfigMap": {},
+      "builderOptions": {
+        "AC5": {
+          "version": 4,
+          "beforeBuildTasks": [],
+          "afterBuildTasks": [
+            {
+              "name": "[Copy linker output for Keil User Commands]",
+              "command": "mkdir ${KEIL_OUTPUT_DIR} & copy \"${OutDir}\\${ProjectName}.axf\" \"${KEIL_OUTPUT_DIR}\\${KEIL_OUTPUT_NAME}.axf\"",
+              "disable": false,
+              "abortAfterFailed": true
+            },
+            {
+              "name": "fromelf --bin --output=.\\bin\\rdtss_ota.bin .\\Objects\\rdtss_ota.axf",
+              "command": "fromelf --bin --output=.\\bin\\rdtss_ota.bin .\\Objects\\rdtss_ota.axf",
+              "disable": false,
+              "abortAfterFailed": true
+            },
+            {
+              "name": "cmd.exe /C copy .\\bin\\rdtss_ota.bin ..\\..\\..\\..\\..\\utilities\\dfu\\Image\\APP2.bin",
+              "command": "cmd.exe /C copy .\\bin\\rdtss_ota.bin ..\\..\\..\\..\\..\\utilities\\dfu\\Image\\APP2.bin",
+              "disable": false,
+              "abortAfterFailed": true
+            }
+          ],
+          "global": {
+            "use-microLIB": true,
+            "output-debug-info": "enable"
+          },
+          "c/cpp-compiler": {
+            "optimization": "level-0",
+            "one-elf-section-per-function": true,
+            "c99-mode": true,
+            "C_FLAGS": "--diag_suppress=1 --diag_suppress=1295",
+            "CXX_FLAGS": "--diag_suppress=1 --diag_suppress=1295",
+            "optimize-for-time": true,
+            "warnings": "all-warnings"
+          },
+          "asm-compiler": {},
+          "linker": {
+            "output-format": "elf",
+            "xo-base": "",
+            "ro-base": "0x00000000",
+            "rw-base": "0x20000000",
+            "$disableOutputTask": true,
+            "misc-controls": "..\\..\\..\\..\\..\\middlewares\\Nationstech\\ble_library\\ns_ble_stack\\symdef\\symbol_g15.obj"
+          }
+        }
+      },
+      "toolchain": "AC5",
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "../inc",
+          "../../../../../firmware/CMSIS/core",
+          "../../../../../firmware/CMSIS/device",
+          "../../../../../firmware/n32wb03x_std_periph_driver/inc",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_profile/dis/diss/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_profile/bas/bass/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_profile/hogp",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_profile/hogp/hogpd/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_profile/hogp/hogpd/src",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_profile/rdts",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_profile/rdts/rdtss/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_profile/ns_ius/ns_iuss/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ahi/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/hl/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/hl/inc",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/hl/src/gap",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/hl/src/gatt",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/hl/src/l2c",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/ll/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/ll/src",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/ll/src/llc",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/ll/src/lld",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/ip/ble/ll/src/llm",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/ip/em/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/ip/hci/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/ip/sch/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/modules/aes/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/modules/common/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/modules/dbg/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/modules/ecc_p256/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/modules/h4tl/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/modules/ke/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/modules/rwip/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/rfinit/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/arch",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/modules/common/api",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/modules/common/src",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/stack_common",
+          "../inc/rw",
+          "../inc/app_profile",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_stack/arch",
+          "../../../../../middlewares/Nationstech/ble_library/ns_library/adv",
+          "../../../../../middlewares/Nationstech/ble_library/ns_library/timer",
+          "../../../../../middlewares/Nationstech/ble_library/ns_library/log",
+          "../../../../../middlewares/Nationstech/ble_library/ns_library/delay",
+          "../../../../../middlewares/Nationstech/ble_library/ns_library/sleep",
+          "../../../../../middlewares/Nationstech/ble_library/ns_library/error",
+          "../../../../../middlewares/Nationstech/ble_library/ns_library/ecc",
+          "../../../../../middlewares/Nationstech/ble_library/ns_library/dfu",
+          "../../../../../middlewares/Nationstech/ble_library/ns_library/sec",
+          "../../../dfu/common",
+          "../../../../../middlewares/Nationstech/ble_library/ns_library/ble",
+          "../../../../../middlewares/Nationstech/ble_library/ns_ble_profile/bas/bass/src",
+          "RTE/_OTA_IMG_2"
+        ],
+        "defineList": [
+          "N32WB03X",
+          "USE_STDPERIPH_DRIVER",
+          "APPLICATION",
+          "BLE_OTA_ENABLE"
+        ],
+        "libList": []
+      },
+      "excludeList": []
+    }
+  },
+  "version": "3.5"
+}
